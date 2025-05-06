@@ -1,97 +1,100 @@
-# 🌠 Krittika WebTools
+# 🛠️ Krittika WebTools
 
-**Krittika WebTools** is a free, browser-based suite of everyday utility tools designed for ease, simplicity, and cross-device accessibility. It is part of **The Krittika Project** — a mission to build clean, purposeful, and open-source public utilities guided by real-life needs.
+> **One place. All tools. Simple interface. Big impact.**
 
-Developed entirely with HTML, CSS, and vanilla JavaScript (Stage 1), this project serves as a foundation for future expansions, themes, and powerful integrations.
+Welcome to **Krittika WebTools** — a growing collection of lightweight calculation and utility tools crafted to solve the everyday challenges we all face. Whether it's figuring out your age to the day, calculating EMIs, converting currencies or measuring distances — these little tasks often take more time than they should. This project is an attempt to bring all those “small but useful” calculators into one clean, responsive and reliable platform.
 
----
+## 🎯 Why I Built This
 
-## 🔧 Concept Note
+As an engineer and father, I found myself jumping across different apps and sites just to do simple tasks like unit conversions or calculating BMI. Most tools are either overloaded, filled with ads, or lack consistency in design. I wanted one place that felt fast, light, familiar — and accessible on any device.
 
-Krittika WebTools was envisioned to bring together commonly needed tools under a single, minimalist interface. Most web tools today are either bloated or ad-heavy — this project aims to provide fast, aesthetic, and distraction-free experiences to users across devices.
-
-It’s named after *Krittika*, symbolizing guidance, clarity, and creative engineering — representing tools that serve with elegance and purpose.
+**Krittika WebTools** is my answer to that need — a place I’ll keep expanding with more day-to-day tools over time.
 
 ---
 
-## ✅ Current Features (Stage 1)
+## ✨ Features (Phase-1 Complete)
 
-All tools are fully responsive and optimized for browser use:
-
-| Tool | Description |
-|------|-------------|
-| 🧮 Calculator | Basic arithmetic calculator with responsive layout |
-| 📏 Unit Converter | Convert between Length, Mass, and Temperature units |
-| 📆 Age Calculator | Calculate age in years, months, and days |
-| 📊 BMI / BMR Calculator | Health metrics using standard formulae |
-| 💱 Currency Converter | Converts between 8 currencies using mock rates (API-ready) |
-
----
-
-## 🛣️ Roadmap: Stage 2 and Beyond
-
-| Upgrade | Description |
-|---------|-------------|
-| 🌙 Dark Mode | Toggle with localStorage memory |
-| 🔄 Live Currency API | Integration with [exchangerate.host](https://exchangerate.host) |
-| 🧠 History Logs | Calculation memory for Calculator, BMI, Currency |
-| 🎨 Theme Switcher | Multiple soft themes |
-| 📱 PWA Support | Installable as a mobile/web app |
-| 🧭 New Tools | Stopwatch, Timer, Percentage Calc, Text Tools |
-| 🧑‍🤝‍🧑 i18n Ready | Language switching and RTL support |
-| 📊 Analytics (Private) | Track most used tools (local only) |
-| 🧩 Modular Loader | Load only required JS per tool dynamically |
+| Tool                  | Description                                      |
+|-----------------------|--------------------------------------------------|
+| 🧮 Calculator Hub      | Basic, Date/Time Difference, %, Powers           |
+| 📏 Unit Converter      | Supports SI categories like Length, Mass, Temp   |
+| 📆 Age Calculator      | Age in years, months, and days                   |
+| ⚖️ BMI / BMR Calculator| Based on gender, age, height and weight         |
+| 💱 Currency Converter  | Placeholder for upcoming API-based tool         |
+| 💰 GST Calculator      | Add/Remove GST from base/gross price             |
+| 🏦 EMI Calculator      | Monthly EMI, Total Payment, Total Interest       |
 
 ---
 
-## 📁 Folder Structure
+## 🚧 What’s Coming Next
 
-```
-krittika-webtools/
-├── index.html
-├── calculator.html
-├── converter.html
-├── age-calculator.html
-├── bmi-bmr.html
-├── currency.html
-├── components/
-│   └── navbar.html
+- 🔁 Dark mode toggle
+- 📥 Export/Copy result buttons
+- 📈 Interest/Investment calculators
+- 🌐 Language localization (future)
+- 📱 Android offline version
+
+---
+
+## 🧾 Folder Structure (Simplified)
+
+```bash
+KrittikaWebTools/
+├── index.html              # Homepage with app links
+├── calculator.html         # All-in-one Calculator
+├── gst.html                # GST calculator
+├── emi.html                # EMI calculator
+├── age.html                # Age calculator
+├── bmi.html                # BMI/BMR calculator
+├── converter.html          # Unit converter
+├── currency.html           # Placeholder page
 ├── css/
-│   └── style.css
+│   └── style.css           # Unified stylesheet
 ├── js/
-│   ├── main.js
-│   ├── calculator.js
-│   ├── converter.js
-│   ├── age-calculator.js
-│   ├── bmi-bmr.js
-│   └── currency.js
-├── assets/
-│   ├── icons/
-│   └── fonts/
-└── README.md
+│   ├── calculator.js       # Calculator logic
+│   ├── gst.js              # GST logic
+│   ├── emi.js              # EMI logic
+│   ├── age.js              # Age logic
+│   ├── bmi.js              # BMI/BMR logic
+│   ├── converter.js        # Unit converter logic
+│   ├── navbar.js           # Navbar loader
+├── navbar.html             # Shared top navbar for all pages
 ```
 
 ---
 
-## 🌐 Hosting and Deployment
+## 🚀 How to Run
 
-This project is hosted using GitHub Pages (or can be deployed via Netlify/Vercel for advanced routing and PWA support).
-
-📍 Live URL: _Coming Soon_
-
----
-
-## 🤝 Contributing
-
-Feature suggestions, bug reports, or improvements are welcome. Please open an issue or fork and contribute.
+1. Download or clone this repository.
+2. Open `index.html` in any browser.
+3. All tools are lightweight and run offline.
 
 ---
 
-## 📜 License
+## 📊 Most Used Languages
 
-MIT License — free to use, adapt, and redistribute with credit.
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=amaljit3022&layout=compact&theme=default&hide_progress=false&cache_seconds=86400)
 
 ---
 
-**© The Krittika Project by Amaljit Bharali**  
-☄️ *Krittika Guides Me | The Rover Builds | 2025*
+## 🧠 Philosophy
+
+Small tools. Big help.
+
+We don’t always need apps with 50MB packages and accounts. Sometimes a few lines of clean code can solve real-life problems — from students to engineers, from working parents to retirees. This project is a quiet attempt to prove just that.
+
+---
+
+## 🏷️ License
+
+This project is open source under the **MIT License**.
+
+---
+
+## 🌠 Built With Purpose
+
+> **“Guided by her star, driven by purpose.”**  
+> This project is part of [**The Krittika Project**](https://sites.google.com/view/thekrittikaproject) — a lifelong dedication to meaningful public tools.
+
+✍️ Amaljit Bharali  
+📧 thekrittikaproject@gmail.com  
