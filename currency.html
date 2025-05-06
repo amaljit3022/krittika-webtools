@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Currency Converter | Krittika WebTools</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+  <script defer src="js/currency.js"></script>
+</head>
+<body>
+  <div id="navbar"></div>
+
+  <main class="container">
+    <h2 class="main-title">💱 Currency Converter</h2>
+
+    <div class="currency-wrapper">
+      <input type="number" id="amount" placeholder="Enter amount" />
+
+      <div class="selectors">
+        <select id="fromCurrency"></select>
+        <span>→</span>
+        <select id="toCurrency"></select>
+      </div>
+
+      <button id="convertCurrency">Convert</button>
+
+      <div id="currencyResult" class="result-display">Converted value will appear here.</div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© The Krittika Project | ☄️ Krittika Guides Me | The Rover Builds | 2025</p>
+  </footer>
+</body>
+</html>

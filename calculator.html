@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculator | Krittika WebTools</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+  <script defer src="js/calculator.js"></script>
+</head>
+<body>
+  <!-- Navbar injected here -->
+  <div id="navbar"></div>
+
+  <main class="container">
+    <h2 class="main-title">🧮 Calculator</h2>
+
+    <div class="calc-wrapper">
+      <input type="text" id="calc-display" readonly placeholder="0" />
+
+      <div class="calc-buttons">
+        <!-- Row 1 -->
+        <button class="btn" data-value="7">7</button>
+        <button class="btn" data-value="8">8</button>
+        <button class="btn" data-value="9">9</button>
+        <button class="btn op" data-value="/">÷</button>
+
+        <!-- Row 2 -->
+        <button class="btn" data-value="4">4</button>
+        <button class="btn" data-value="5">5</button>
+        <button class="btn" data-value="6">6</button>
+        <button class="btn op" data-value="*">×</button>
+
+        <!-- Row 3 -->
+        <button class="btn" data-value="1">1</button>
+        <button class="btn" data-value="2">2</button>
+        <button class="btn" data-value="3">3</button>
+        <button class="btn op" data-value="-">−</button>
+
+        <!-- Row 4 -->
+        <button class="btn" data-value="0">0</button>
+        <button class="btn" data-value=".">.</button>
+        <button class="btn equals" id="equals">=</button>
+        <button class="btn op" data-value="+">+</button>
+
+        <!-- Row 5 -->
+        <button class="btn clear" id="clear">C</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© The Krittika Project | ☄️ Krittika Guides Me | The Rover Builds | 2025</p>
+  </footer>
+</body>
+</html>
